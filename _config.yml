@@ -18,23 +18,24 @@ subtitle: B.Eng.Mgt.
 email: noahzwiep@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A website for Noah Zwiep to display projects, information, and to explore GitHub Pages.
+locale: "en-CA"
 github_username: noahzwiep
-url: https://noahzwiep.github.io
+#url: https://noahzwiep.github.io
+#baseurl: noahzwiep.github.io
 repository: noahzwiep/noahzwiep.github.io
-minimal_mistakes_skin: contrast
+minimal_mistakes_skin: contrast  #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 # Build settings
-markdown: kramdown
+markdown: kramdownm
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: Canada/Eastern # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _projects 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -63,6 +64,9 @@ author:
   bio    : "McMaster University Mechatronics Engineering & Management Graduate"
   location: "Ontario, Canada"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:noahzwiep@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/noahzwiep"
@@ -72,6 +76,9 @@ author:
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:noahzwiep@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/noahzwiep"
@@ -80,17 +87,25 @@ footer:
       url: "https://linkedin.com/in/noahzwiep/"
 
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: projects
+      type: default
     values:
       layout: single
       author_profile: true
-      read_time: true
+      classes: wide
+
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
       comments: true
-      share: true
       related: true
+      classes: wide
+
   # _pages
   - scope:
       path: "_pages"
@@ -98,3 +113,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
