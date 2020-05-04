@@ -27,7 +27,6 @@ minimal_mistakes_skin: contrast  #"default", "air", "aqua", "contrast", "dark", 
 search: true
 
 # Build settings
-markdown: kramdownm
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
