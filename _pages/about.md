@@ -8,13 +8,14 @@ title: "About"
 <div class="imageLeft-container">
   <div class="imageLeft"><img src="/assets/images/headshot.jpg" alt="headshot" width="220"/></div>
   <div class="imageLeft-content"><p>Hello, and thank you for visiting my website! I am a recently graduated McMaster University student, graduating from the Bachelor of Mechatronics Engineering and Management (CO-OP) program.</p>
-  <p>This means I have spent the past six years of my life either on coop/internship or doing in-class work. In total, I have had two co-op terms (4-months each) at two different companies and one internship (16-months) at a third company. The program I am in is a five-year program, requiring around 180 total units of coursework that essentially gives me a Bachelors in Engineering and all the base knowledge of a business degree.</p></div>
+  <p>I have spent the past six years of my life either on coop/internship or doing in-class work. In total, I have had two co-op terms (4-months each) at two different companies and one internship (16-months) at a third company.</p>
+  <p>The program I am in is a five-year program, requiring around 180 total units of coursework. This program gives me a Bachelors in Engineering, gives me the base knowledge of a business degree, and my three co-op/internship terms help me apply this acquired knowledge in a practical way.</p></div>
 </div>
 
 ## Extracurriculars
 1. McMaster Baja Racing 
 
-	I have been heavily involved on the McMaster Baja Racing team from 2017 till now. During this time, I have been a member of the Data Acquisition Subteam, even leading the subteam for one design year. I have had the priviledge of joining the team at the 2018 competition in Maryland and the 2020 competition in Quebec. Finally, I even worked on a project for Baja as my final-year capstone, which you can see [here](noahzwiep.github.io/projects/capstone).
+	I have been heavily involved in McMaster Baja Racing from January 2017 until April 2020. During this time, I have been a member of the Data-Acquisition subteam, even leading the subteam for one design year. I have had the priviledge of joining the team at the 2018 competition in Maryland and the 2020 competition in Quebec. I have even worked on a project for Baja as my final-year capstone, which you can see [here](noahzwiep.github.io/projects/capstone).
 	<p style="text-align: center;" align="center">
 	  <img src="/assets/images/projects/baja/maryland.jpg" class="centerImage" alt="Maryland Competition" width="600"/><br>
 	  <i><small>Baja Maryland Competition</small></i>
