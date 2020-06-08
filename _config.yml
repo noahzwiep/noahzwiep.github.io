@@ -57,6 +57,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-168819652-1"
+    anonymize_ip: false # default
+
 author:
   name   : "Noah Zwiep"
   avatar : "/assets/images/headshot.jpg"
